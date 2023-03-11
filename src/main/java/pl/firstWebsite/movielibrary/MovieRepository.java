@@ -10,7 +10,7 @@ import java.util.List;
 @Repository
 public class MovieRepository {
 
-
+    @Autowired
     JdbcTemplate jdbcTemplate = new JdbcTemplate();
 
     public List<Movie> getAll(){
